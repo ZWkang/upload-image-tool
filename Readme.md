@@ -36,9 +36,9 @@ npm install -g @zwkang/uio
 
 > 设置配置信息
 
-- uio upload [--flodername][floderpath] [--encrypto]
+- uio upload [--foldername][folderpath] [--crypto]
 
-> flodername 指定一个文件夹目录
-> encrypto 是否重命名上传文件
+> foldername 指定一个文件夹目录
+> crypto 是否重命名上传文件
 
 ## MIT

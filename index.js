@@ -2,11 +2,10 @@ const inquirer = require('inquirer');
 const OSS = require('ali-oss');
 const debug = require('debug')('uio:index');
 
-const { get, set } = require('./config');
-const pkg = require('./package.json');
-const uploadAFloderToOss = require('./uploadFloderImageToOss');
-const { init_questions } = require('./inquirer.question');
-const { logError, renderKVObjects, cleanupFalselyKey } = require('./util');
+const { get, set } = require('./lib/config');
+const uploadAFolderToOss = require('./lib/uploadFloderImageToOss');
+const { init_questions } = require('./lib/inquirer');
+const { logError, renderKVObjects, cleanupFalselyKey } = require('./lib/util');
 
 /**
  * module.exports
@@ -16,11 +15,12 @@ module.exports = uio;
 const defaultOpts = {
   // configPath: null,
   rootPath: process.cwd(),
-  flodername: get('flodername'),
+  foldername: get('foldername'),
   prefix: get('pp') || get('prefix'),
   urlPrefix: get('upp') || get('url_prefix'),
   flatten: false,
-  encrypto: false,
+  crypto: false,
+  onlyImage: false,
 };
 
 /**
@@ -35,31 +35,38 @@ function uio(opts) {
     ...cleanupFalselyKey(opts),
   };
 
-  const { filename, flodername, encrypto, flatten, rootPath } = mixinOpts;
-  debug(`mixinOptions: `, mixinOpts);
+  const {
+    filename,
+    foldername,
+    crypto,
+    flatten,
+    rootPath,
+    onlyImage,
+  } = mixinOpts;
+  debug(`mixinOptions: ${mixinOpts}
 
-  debug(`
-  filename: ${filename},
-  flodername: ${flodername},
-  encrypto: ${encrypto},
-  flatten: ${flatten}s
+    filename: ${filename},
+    foldername: ${foldername},
+    crypto: ${crypto},
+    flatten: ${flatten}
   `);
   const { oss } = this;
 
-  if (!filename && !flodername) {
+  if (!filename && !foldername) {
     logError(`
-filename or flodername must be exist !!!
+filename or foldername must be exist !!!
 `);
     return;
   }
 
-  if (flodername) {
-    return uploadAFloderToOss({
-      encrypto,
+  if (foldername) {
+    return uploadAFolderToOss({
+      crypto,
       flatten,
-      flodername,
+      foldername,
       rootPath,
       client: oss,
+      onlyImage,
     });
   }
 
