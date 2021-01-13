@@ -18,13 +18,9 @@ commander.version(pkg.version);
 
 // 是否展开保留文件夹结构
 
-commander.option('-i, --init', 'init project setting').action(() => {
-  return uio.initConfig();
-});
+commander.command('init').action(uio.initConfig);
 
-commander.command('getConfig').action(() => {
-  return uio.getConfig();
-});
+commander.command('getConfig').action(uio.getConfig);
 
 commander
   .command('upload')
