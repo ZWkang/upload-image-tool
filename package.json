@@ -1,6 +1,6 @@
 {
   "name": "@zwkang/upload-image-tool",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "一个简单的使用项目为基础，进行资源上传的脚手架",
   "main": "index.js",
   "homepage": "http://git.shensz.local/zhouwenkang/upload-image-tool",
