@@ -1,6 +1,6 @@
 {
   "name": "@zwkang/upload-image-tool",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "一个简单的使用项目为基础，进行资源上传的脚手架",
   "main": "index.js",
   "homepage": "http://git.shensz.local/zhouwenkang/upload-image-tool",
@@ -18,13 +18,14 @@
   },
   "dependencies": {
     "ali-oss": "^6.8.0",
+    "axios": "^0.21.1",
+    "chalk": "^4.0.0",
     "commander": "^5.1.0",
     "debug": "^4.1.1",
     "inquirer": "^7.2.0",
     "recursive-readdir": "^2.2.2",
     "update-notifier": "^4.1.0",
-    "uuid": "^8.1.0",
-    "chalk": "^4.0.0"
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
