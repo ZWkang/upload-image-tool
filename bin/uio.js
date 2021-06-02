@@ -9,7 +9,7 @@ const uio = require('..');
 
 updateNotifier({ pkg }).notify();
 
-process.on('uncaughtException', e => {
+process.on('uncaughtException', (e) => {
   console.log(`error: `);
   console.log(e);
 });
@@ -40,8 +40,6 @@ commander.command('set').action((...arg) => {
 
 commander.option('-h, --help').action(() => console.log(help_text));
 
-commander.command('help').action((...arg) => {
-  return console.log(help_text);
-});
+commander.command('help').action((...arg) => console.log(help_text));
 
 commander.parse(process.argv);
