@@ -4,7 +4,7 @@
   "description": "一个简单的使用项目为基础，进行资源上传的脚手架",
   "main": "index.js",
   "homepage": "http://git.shensz.local/zhouwenkang/upload-image-tool",
-  "author": "zwkang <907747874@qq.com>",
+  "author": "kang <kang95630@gmail.com>",
   "bin": {
     "uiod": "./bin/uio.js"
   },
