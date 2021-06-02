@@ -1,70 +1,17 @@
-# 1.3.0 (2021-01-13)
-
-
-### Bug Fixes
-
-* bug axios ([858a0d6](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/858a0d66a005887eb8cf9661593ac60aa7bcdf7a))
-* clean console fix command ([5b59a14](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/5b59a1402a1ce8f212a5354bd149c13faa3e898c))
-* crypto ([1b7db76](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/1b7db76cefea8bccd7f7172b65fdc99c0e3aae07))
-
-
-### Features
-
-* add npm registry setting ([f3e774d](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/f3e774dbb2e995333c02a8a04a839baa28de0f4c))
-* restart project ([2439e10](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/2439e1014596a1cb8fb810c2a700722496798386))
-* update changelog ([edd57e5](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/edd57e50e8c1f238ceca819648a3066e954ec82e))
-* update deps ([b958bf0](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/b958bf0f88ddfc8e3ab006d9bb18acef57b5f697))
-* update version ([bb97a6c](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/bb97a6c2d36b2188aa0d1d62cafa086952bdaa92))
-* update version ([be15361](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/be15361f71d66d009ec6957a55655327253d6066))
-* update version ([c8ffcd0](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/c8ffcd09a9d9839334bd2642da56bd9f717098d1))
-
-
-
-# 1.2.0 (2021-01-13)
-
+# 0.1.0 (2021-06-02)
 
 ### Bug Fixes
 
-* bug axios ([858a0d6](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/858a0d66a005887eb8cf9661593ac60aa7bcdf7a))
-* clean console fix command ([5b59a14](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/5b59a1402a1ce8f212a5354bd149c13faa3e898c))
-
-
-### Features
-
-* add npm registry setting ([f3e774d](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/f3e774dbb2e995333c02a8a04a839baa28de0f4c))
-* restart project ([2439e10](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/2439e1014596a1cb8fb810c2a700722496798386))
-* update changelog ([edd57e5](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/edd57e50e8c1f238ceca819648a3066e954ec82e))
-* update deps ([b958bf0](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/b958bf0f88ddfc8e3ab006d9bb18acef57b5f697))
-* update version ([be15361](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/be15361f71d66d009ec6957a55655327253d6066))
-* update version ([c8ffcd0](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/c8ffcd09a9d9839334bd2642da56bd9f717098d1))
-
-
-
-## 1.1.1 (2021-01-13)
-
-
-### Bug Fixes
-
-* bug axios ([858a0d6](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/858a0d66a005887eb8cf9661593ac60aa7bcdf7a))
-
+- bug axios ([df54b94](https://github.com/ZWkang/upload-image-tool/commit/df54b9495eb01fa8839452ea6c4cf92f403d614b))
+- clean console fix command ([9895b68](https://github.com/ZWkang/upload-image-tool/commit/9895b68481ac2b70163aa0aa6b5e939ea581cd82))
+- crypto ([7e4946e](https://github.com/ZWkang/upload-image-tool/commit/7e4946e0ab087e93954d9707739a322f6bd5e320))
 
 ### Features
 
-* add npm registry setting ([f3e774d](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/f3e774dbb2e995333c02a8a04a839baa28de0f4c))
-* restart project ([2439e10](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/2439e1014596a1cb8fb810c2a700722496798386))
-* update changelog ([edd57e5](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/edd57e50e8c1f238ceca819648a3066e954ec82e))
-* update version ([c8ffcd0](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/c8ffcd09a9d9839334bd2642da56bd9f717098d1))
-
-
-
-# 1.1.0 (2021-01-13)
-
-
-### Features
-
-* add npm registry setting ([f3e774d](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/f3e774dbb2e995333c02a8a04a839baa28de0f4c))
-* restart project ([2439e10](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/2439e1014596a1cb8fb810c2a700722496798386))
-* update version ([c8ffcd0](http://git.shensz.local/zhouwenkang/upload-image-tool/commits/c8ffcd09a9d9839334bd2642da56bd9f717098d1))
-
-
-
+- add npm registry setting ([0c71820](https://github.com/ZWkang/upload-image-tool/commit/0c71820cf1bf198263525b232278aac74408dc1b))
+- restart project ([49f3b73](https://github.com/ZWkang/upload-image-tool/commit/49f3b73cfb7d35348986ef0a7e3b5db694531c87))
+- update changelog ([81f83cf](https://github.com/ZWkang/upload-image-tool/commit/81f83cfca264233af866f23fc40a5eae8fd07c79))
+- update deps ([b34f13c](https://github.com/ZWkang/upload-image-tool/commit/b34f13c41f2902df4a9b21d586b806070c0e0d70))
+- update version ([7acf8cb](https://github.com/ZWkang/upload-image-tool/commit/7acf8cb844f78ce37b1912fe990d06f462a50399))
+- update version ([66ce9e0](https://github.com/ZWkang/upload-image-tool/commit/66ce9e07da23b3f10124c3ab9592af7ed089ace7))
+- update version ([9337cb6](https://github.com/ZWkang/upload-image-tool/commit/9337cb62df7a5216388cca3c7ebdbfb8964cdbad))
