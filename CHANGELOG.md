@@ -1,4 +1,10 @@
-# 0.1.0 (2021-06-02)
+## [0.1.1](https://github.com/ZWkang/upload-image-tool/compare/v0.1.0...v0.1.1) (2021-06-02)
+
+### Features
+
+- update readme ([64a482f](https://github.com/ZWkang/upload-image-tool/commit/64a482f70df3c03289fa684c103fb425d547564c))
+
+# [0.1.0](https://github.com/ZWkang/upload-image-tool/compare/49f3b73cfb7d35348986ef0a7e3b5db694531c87...v0.1.0) (2021-06-02)
 
 ### Bug Fixes
 
