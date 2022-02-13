@@ -1,4 +1,4 @@
-# [0.2.0](https://github.com/ZWkang/upload-image-tool/compare/v0.1.0...v0.2.0) (2022-02-13)
+## [0.2.1](https://github.com/ZWkang/upload-image-tool/compare/v0.1.0...v0.2.1) (2022-02-13)
 
 
 ### Bug Fixes
