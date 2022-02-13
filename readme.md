@@ -2,6 +2,8 @@
 
 > 上传图片工具
 
+> zui alias for zupload-image
+
 ---
 
 ## reason
@@ -17,28 +19,30 @@
 ```js
 npm install -g upload-image-tool
 // or
-npx uio
+npx zui
+// or
+npx zupload-image
 ```
 
-- uio --help | uio -h
+- zui --help | zui -h
 
   获取命令信息
 
-- uio init
+- zui init
 
   初始化工具配置
 
   包括一些阿里云 oss 链接初始化配置，还有一些项目初始化位置。
 
-- uio getconfig
+- zui getconfig
 
   获取所有配置信息
 
-- uio set <key> <value>
+- zui set <key> <value>
 
   设置配置信息
 
-- uio upload [--foldername folderPath] [--crypto] [--convert]
+- zui upload [--foldername folderPath] [--crypto] [--convert]
 
   foldername 指定一个文件夹目录上传
 

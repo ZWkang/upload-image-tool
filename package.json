@@ -6,7 +6,8 @@
   "homepage": "https://github.com/ZWkang/upload-image-tool",
   "author": "kang <kang95630@gmail.com>",
   "bin": {
-    "zupload": "./bin/cli.js"
+    "zupload-image": "./bin/cli.js",
+    "zui": "./bin/cli.js"
   },
   "type": "commonjs",
   "husky": {

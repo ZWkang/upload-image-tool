@@ -5,7 +5,7 @@ const commander = require('commander');
 
 const pkg = require('../package.json');
 const help_text = require('../lib/helper');
-const uio = require('..');
+const zui = require('..');
 
 updateNotifier({ pkg }).notify();
 
@@ -18,9 +18,9 @@ commander.version(pkg.version);
 
 // 是否展开保留文件夹结构
 
-commander.command('init').action(uio.initConfig);
+commander.command('init').action(zui.initConfig);
 
-commander.command('getConfig').action(uio.getConfig);
+commander.command('getConfig').action(zui.getConfig);
 
 commander
   .command('upload')
@@ -30,12 +30,12 @@ commander
   .option('-oi, --onlyImage')
   .option('-vt, --convert')
   .action(({ foldername, crypto, flatten, onlyImage, convert }) => {
-    return new uio({ foldername, crypto, flatten, onlyImage, convert });
+    return new zui({ foldername, crypto, flatten, onlyImage, convert });
   });
 
 commander.command('set').action((...arg) => {
   const [, [key, value]] = arg;
-  return uio.set(key, value);
+  return zui.set(key, value);
 });
 
 commander.option('-h, --help').action(() => console.log(help_text));
