@@ -8,6 +8,7 @@
   "bin": {
     "uiod": "./bin/uio.js"
   },
+  "type": "commonjs",
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
@@ -21,6 +22,7 @@
     "axios": "^0.21.1",
     "chalk": "^4.0.0",
     "commander": "^5.1.0",
+    "configstore": "5",
     "debug": "^4.1.1",
     "inquirer": "^7.2.0",
     "recursive-readdir": "^2.2.2",
